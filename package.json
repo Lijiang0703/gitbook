@@ -14,7 +14,7 @@
     "is": "^3.2.1",
     "json-schema-defaults": "^0.4.0",
     "jsonschema": "^1.2.2",
-    "markup-it": "^6.0.0",
+    "markup-it": "git+ssh://git@github.com:wagon1104/markup-it.git",
     "q": "^1.5.1",
     "slate": "^0.33.0"
   },
