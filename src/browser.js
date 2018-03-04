@@ -3,7 +3,7 @@
 module.exports = {
     Parse:               require('./parse'),
     // Models
-    // Book:                require('./models/book'),
+    Book:                require('./models/book'),
     // FS:                  require('./models/fs'),
     File:                require('./models/file'),
     // Summary:             require('./models/summary'),
