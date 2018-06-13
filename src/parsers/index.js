@@ -2,8 +2,8 @@ const path = require('path');
 const { Map } = require('immutable');
 
 const PARSERS = new Map({
-    markdown: require('./markdown'),
-    asciidoc: require('./asciidoc')
+    markdown: require('./markdown')
+    // asciidoc: require('./asciidoc')
 });
 
 const FILE_EXTENSIONS = PARSERS.reduce((result, parser) => result.concat(parser.FILE_EXTENSIONS), []);
